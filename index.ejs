@@ -18,8 +18,9 @@
                 <tr><td><%=data.msg %></td></tr>
             </table>
         </p>
-        <p>
-            <form method="post" action="/">
+        <p>your last message:<%= cookie_data %></p>
+        <form method="post" action="/">
+        <p>    
             MESSAGE <input type="text" name="msg">
             <input type="submit" value="送信">
         </p>
